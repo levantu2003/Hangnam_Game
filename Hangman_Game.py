@@ -8,7 +8,7 @@ word = random.choice(words)
 guesses = ''
 turns = 10
 
-print(f'You have {turn} turns to guess!')
+print(f'You have {turns} turns to guess!')
 
 while turns > 0:
     print(f'You have {turns} turns left!')
