@@ -26,7 +26,8 @@ while turns > 0:
         if guesses not in word:
             turns = turns - 1
             if turns == 0:
-                print("Better luck next time!")
+                print('Better luck next time!')
+                print(f'The word is {word}')
     else:
         turns = 0
         print('Congratulations. You win!')
