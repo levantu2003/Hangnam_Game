@@ -2,7 +2,7 @@ import random
 
 words = ['father', 'enterprise', 'science', 'programming', 'resistance', 'fiction', 'condition', 'reverse', 'computer', 'python']
 
-print(f'The words are {list}')
+print(f'The words are {words}')
 
 word = random.choice(words)
 guesses = ''
